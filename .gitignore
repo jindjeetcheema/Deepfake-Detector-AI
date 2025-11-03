@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Model weights / checkpoints
+models/*.pth
+models/checkpoints/
+
+# Data and outputs
+data/raw/
+data/processed/
+data/test_videos/
+outputs/
+*.log
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
