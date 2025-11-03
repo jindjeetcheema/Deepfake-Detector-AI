@@ -1,0 +1,15 @@
+torch
+torchvision
+tqdm
+opencv-python
+numpy
+pandas
+matplotlib
+scikit-learn
+Pillow
+facenet-pytorch        # includes MTCNN for face detection
+albumentations         # augmentations
+PyYAML
+fastapi
+uvicorn
+python-multipart       # for video upload handling

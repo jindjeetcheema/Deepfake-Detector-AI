@@ -1,0 +1,21 @@
+data:
+  train_dir: "data/processed/train"
+  val_dir: "data/processed/val"
+  test_dir: "data/test_videos"
+  batch_size: 16
+  image_size: 299
+
+model:
+  name: "xception"
+  pretrained: true
+  num_classes: 2
+
+training:
+  epochs: 20
+  learning_rate: 0.0001
+  optimizer: "adam"
+  scheduler: "cosine"
+  save_dir: "models/checkpoints"
+
+api:
+  model_path: "models/final_model.pth"
